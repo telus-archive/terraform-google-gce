@@ -1,6 +1,5 @@
 module "gce" {
-  source  = "telus/gce/google"
-  version = "1.0.0"
+  source  = "git::ssh://git@github.com/telus/terraform-google-gce"
   name = "gce"
-  project = "project-id"
+  project = "gce"
 }
