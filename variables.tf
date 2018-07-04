@@ -53,7 +53,7 @@ variable "create_timeout" {
 
 variable "description" {
   description = "instance description"
-  default = "${var.project}-${var.name}"
+  default = ""
 }
 
 variable "deletion_protection" {

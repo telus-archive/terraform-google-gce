@@ -17,7 +17,7 @@ Defaults:
 * `allow_stopping_for_update` - Allows Terraform to stop the instance to update its properties, defaults to `false`
 * `can_ip_forward` - Allow sending and receiving of packets with non-matching source or destination IPs, defaults to `false`
 * `create_timeout` - Timeout in minutes for creating instances, defaults to 0
-* `description` - Instance description, defaults to ${var.project}-${var.name}
+* `description` - Instance description, defaults to nothing
 * `deletion_protection` - Enable deletion protection on this instance, defaults to false
 * `scopes` - A list of service scopes to use, defaults to `cloud-platform`
 * `protocol` - The name of the protocols to allow, defaults to `tcp`
