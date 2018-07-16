@@ -2,7 +2,7 @@ provider "google" {
   region = "${var.region}"
 }
 
-resource "google_compute_instance" "gce" {
+resource "google_compute_instance" "default" {
   project      = "${var.project}"
   name         = "${var.name}"
   machine_type = "${var.machine_type}"
@@ -38,7 +38,7 @@ resource "google_compute_instance" "gce" {
   }
 }
 
-resource "google_compute_firewall" "gce" {
+resource "google_compute_firewall" "default" {
   project = "${var.project}"
   name    = "${var.name}-firewall"
   network = "${var.network}"
