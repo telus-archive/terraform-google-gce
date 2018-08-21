@@ -68,3 +68,4 @@ When contributing to this repository, please first discuss the change you wish t
 # Contributors
 
 * [Alex Podobnik](https://github.com/alexandarp)
+* [James Ma](https://github.com/kuwas)
