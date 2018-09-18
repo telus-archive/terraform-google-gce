@@ -22,6 +22,7 @@ Defaults:
 * `scopes` - A list of service scopes to use, defaults to `cloud-platform`
 * `protocol` - The name of the protocols to allow, defaults to `tcp`
 * `ports` - List of ports and/or port ranges to allow, defaults to `80, 443, 22`
+* `size` - Size of the instance in GB, defaults to `10`
 
 # Module Outputs
 
