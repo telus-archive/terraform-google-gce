@@ -90,3 +90,8 @@ variable "ports" {
   description = "list of ports and/or port ranges to allow"
   default = ["80", "443", "22"]
 }
+
+variable "size" {
+  description = "size of the instance in GB"
+  default = 10
+}
